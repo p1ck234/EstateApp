@@ -129,7 +129,7 @@ namespace EstateApp
                 e.Handled = true;
             }
         }
-         
+          
         private void btnSave_Click(object sender, RoutedEventArgs e)
         {
             AvtorizationWindow.bd.Orders.Load();
